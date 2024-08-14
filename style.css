@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+}
+.header{
+    background-color: #713d92;
+    display:inline-flex; 
+    width: 100%;
+    height: 10vh;
+}
+.header img{
+    padding: 40px 50px;
+}
+.left_arrow{
+    position: relative;
+    top: -26px;
+    left: -20px;
+}
+h5{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    position: relative;
+    top:-25px ;
+    left:230px ;
+}
+.logo{
+    position: relative;
+    top: -30px;
+    left:200px ;
+}
+.down_arrow{
+    position: relative;
+    top:-26px ;
+    left: 450px;
+}
+.pi_logo{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    color:#efa52e ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.footer button{
+    padding: 15px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #713d92;
+    color:#fff ;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+
+@media  screen and (max-width: 450px) {
+    .header{
+        /* padding: -30px; */
+    }
+    .left_arrow{
+        position: relative;
+        top: -17px;
+        left: -30px;
+    }
+    h5{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        letter-spacing: 1.1px;
+        position: relative;
+        top:-12px ;
+        left:20px ;
+    }
+    .logo{
+        position: relative;
+        top: -25px;
+        left:-20px ;
+    }
+    .logo img{
+        width: 20%;
+    }
+    .down_arrow{
+        position: relative;
+        top:-17px ;
+        left: 20px;
+    }
+    .footer button{
+        width: 100%;
+        font-size: 12px;
+    }
+}
